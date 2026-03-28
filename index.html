@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Радио Перевалово</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Radio Perevalovo">
+    <meta name="author" content="pxnunix">
+
+    <link href="swatch/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="bootstrap/docs/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="test/bootswatch.css" rel="stylesheet">
+
+    <style>
+      /* Ретро-стиль для плеера */
+      .retro-player-container {
+        background: #c0c0c0;
+        border: 3px double #808080;
+        padding: 15px;
+        box-shadow: 5px 5px 0px #000;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .on-air-lamp {
+        color: #ff0000;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px #000;
+        animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to { visibility: hidden; }
+      }
+      audio {
+        filter: sepia(20%) saturate(70%) grayscale(100%) contrast(150%) invert(100%);
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body id="top" class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
+
+<div class="navbar navbar-fixed-top">
+   <div class="navbar-inner">
+     <div class="container">
+       <a class="brand" href="">Радио</a>
+       <div class="nav-collapse" id="main-menu">
+        <ul class="nav" id="main-menu-left">
+          <li><a href="https://github.com/PXNUNIX/radio-perevalovo">GitHub</a></li>
+        </ul>
+       </div>
+     </div>
+   </div>
+ </div>
+
+<div class="container">
+
+<header class="jumbotron subhead" id="overview">
+  <div class="row">
+    <div class="span6">
+      <h1><img src="img/test/7upspot.gif">&nbsp;<FONT COLOR="#FF0000">Р</FONT><FONT COLOR="#FF5A00">а</FONT><FONT COLOR="#FFB400">д</FONT><FONT COLOR="#A5ff00">и</FONT><FONT COLOR="#4Bff00">о</FONT><FONT COLOR="#00ff5A"> </FONT><FONT COLOR="#00ff00">П</FONT><FONT COLOR="#00ffB4">е</FONT><FONT COLOR="#00ffff">р</FONT><FONT COLOR="#00B4ff">е</FONT><FONT COLOR="#005Aff">в</FONT><FONT COLOR="#0000ff">а</FONT><FONT COLOR="#4B00ff">л</FONT><FONT COLOR="#A500ff">о</FONT><FONT COLOR="#FF00ff">в</FONT><FONT COLOR="#FF00B4">о</FONT></h1>
+      <p class="lead">Добро пожаловать на сайт Радио Перевалово!</p>
+      <table cellpadding="2" cellspacing="2">
+        <tr>
+          <td><img src="img/test/ie_logo.gif"></td>
+          <td><img src="img/test/ns_logo.gif"></td>
+          <td><img src="img/test/noframes.gif"></td>
+          <td><img src="img/test/Debian.png"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="span6">
+      <center>
+        <img src="img/test/yahooweek.gif">
+        <img src="img/test/community.gif">
+      </center>
+    </div>
+  </div>
+  <marquee scrollamount="5">Первое фанатское радио MTA Province! >>> Прямой эфир из Леспромхоза! >>></marquee>
+</header>
+
+<div class="row">
+  <div class="span12">
+    <div class="retro-player-container">
+      <h4 style="margin:0; font-family: 'Courier New', Courier, monospace;">
+        <span class="on-air-lamp">● ON AIR</span> | RADIO PEREVALOVO FM
+      </h4>
+      <img src="img/test/hot.gif"> 
+      <audio controls>
+        <source src="http://94.156.237.33:8000/stream" type="audio/mpeg">
+        Ваш браузер слишком старый для этого радио!
+      </audio>
+      <p style="font-size: 10px; margin-top: 5px;">Best viewed in Netscape Navigator 4.0</p>
+    </div>
+  </div>
+</div>
+
+<h3 id="progressbars">Информация для слушателей</h3>
+
+<div class="row">
+  <div class="span4">
+    <p><strong>Сайт готов на: </strong> 80% (бета тест)</p>
+    <div class="progress progress-info progress-striped">
+      <div class="bar" style="width: 80%;"></div>
+    </div>
+  </div>
+</div> 
+
+<div class="row">
+  <div class="span12">
+    <div class="alert alert-block">
+      <img class="pull-left" style="margin-top: -8px" src="img/test/drudgesiren.gif" width="80">
+      <h4 class="alert-heading">Объявления слушателям</h4>
+      <p>Дмитрий Гадиятов признан врагом Кубани и Леспромхоза</p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p class="pull-left"><img src="img/test/geocities.jpg"></p>
+  <p class="pull-right"><img src="img/test/hacker.gif">&nbsp; Built with <a href="http://bootswatch.com">Bootswatch</a></p>
+</footer>
+<center><img src="img/test/counter2.gif"></center>
+
+</div>
+
+    <script src="bootstrap/docs/assets/js/jquery.js"></script>
+    <script src="bootstrap/docs/assets/js/bootstrap-alert.js"></script>
+  </body>
+</html>
