@@ -1,3 +1,5 @@
+извините мне пока что в падлу всё переделывать в этом репозитории потом залью нормальное
+
 # Geo
 
 **Geo** is a timeless [Twitter Bootstrap](http://twitter.github.com/bootstrap) theme built for the modern web.
